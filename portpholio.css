@@ -129,4 +129,7 @@ img{
     background:  #E8FFED; 
     overflow: hidden;
     border-radius: 10px;
+    border: ridge;
+    border-width: 1px; 
+    border-color: #318488;
 }
