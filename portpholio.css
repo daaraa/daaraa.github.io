@@ -126,8 +126,7 @@ img{
 .holder{
     display:  block; 
     height:  auto; 
-    /*float: left;*/
-    width: 260px;
+    float: left;
     background:  #E8FFED; 
     overflow: hidden;
     border-radius: 10px;
@@ -136,7 +135,6 @@ img{
     border-color: #318488;
     box-shadow: 0 0 10px rgba(0,0,0,0.5);
     margin: 3px;
-    display: inline;
 }
 
 img .holder{
