@@ -122,3 +122,11 @@ img{
     padding: 10px 10px 10px 0;
     float:left;
 }
+
+.holder{
+    display:  block; 
+    height:  auto; 
+    background:  #f677c5; 
+    overflow: hidden;
+    border-radius: 10px;
+}
