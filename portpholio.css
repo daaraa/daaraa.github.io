@@ -1,0 +1,124 @@
+body {
+    background-color: #EAFFFD;
+}
+
+
+* {
+  margin: 0;
+}
+html, body {
+  height: 100%;
+}
+
+.wrapper {
+  min-height: 100%;
+  /* equal to footer height */
+  margin-bottom: -30px; 
+  margin-left: 7%;
+  margin-right: 7%;
+}
+.wrapper::after {
+  content: "";
+  display: block;
+}
+.footer, .wrapper:after {
+  height: 30px; 
+}
+.footer {
+	color: #663711;
+    font-family: 'Times New Roman', Times, serif; /* Шрифт с засечками */
+    font-style: italic;
+    text-shadow: 2px 8px 6px rgba(0,0,0,0.2),
+                 0px -5px 35px rgba(255,255,255,0.3);
+    border-top: 3px ridge #318488;
+    margin-left: 7%;
+    margin-right: 7%;
+}
+.header{
+    margin-top: 10px;
+    padding: 20px, 0;
+    height: 70px;
+}
+.portfol{
+    color: #663711;
+    font-family: Impact, Charcoal, sans-serif;
+    /*font-style: italic;*/
+    font-size: 26px;
+    text-shadow: 2px 8px 6px rgba(0,0,0,0.2),
+                 0px -5px 35px rgba(255,255,255,0.3);
+    width: 33%;
+    float: left;
+    margin-top: 20px;
+    border-bottom: 3px ridge #318488;
+    border-bottom: 
+    font-weight: bold;
+}
+.name{
+    font-family: Georgia, serif;
+    font-style:normal;
+    text-shadow: none;
+    font-size: 16px;
+    color: #FA1465; 
+}
+.sidebar{
+    color: #663711;
+    font-family:  Impact, Charcoal, sans-serif;
+    width: 33%;
+    float: right;
+}
+a {
+    text-decoration: none;
+}
+
+
+li {
+    list-style-position: inside;
+    font: 14px;
+    padding: 10px;
+
+}
+
+.sidebar li {
+    float: right;
+    display: inline-block;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+.sidebar a {
+    color: #663711;
+}
+.greeting{
+    margin: 70px;
+    color: #663711;
+    font-family: 'Times New Roman', Times, serif; /* Шрифт с засечками */
+    font-style: italic;
+    text-shadow: 2px 8px 6px rgba(0,0,0,0.2),
+                 0px -5px 35px rgba(255,255,255,0.3);
+    font-size: 40px;
+    text-align: center;
+}
+.columns{
+    min-height: 200px;
+}
+.aboutMe{
+    display: inline;
+    float: left;
+    width: 49%;
+}
+.skills{
+    float: right;
+    width: 49%;
+    display: inline;
+}
+.under{
+    color: #FA1465;
+    font-family:  Impact, Charcoal, sans-serif;
+    font-size: 22px;
+    border-bottom: 2px ridge #318488;
+    /*display: inline;*/
+}
+img{
+    padding: 10px 10px 10px 0;
+    float:left;
+}
