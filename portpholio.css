@@ -123,7 +123,7 @@ img{
     float:left;
 }
 
-.first_holder{
+.holder{
     display:  block; 
     height:  auto; 
     float: left;
@@ -137,21 +137,11 @@ img{
     margin: 3px;
 }
 
-.holder{
-    display:  block; 
-    height:  auto; 
-    float: right;
-    background:  #E8FFED; 
-    overflow: hidden;
-    border-radius: 10px;
-    border: ridge;
-    border-width: 1px; 
-    border-color: #318488;
-    box-shadow: 0 0 10px rgba(0,0,0,0.5);
-    margin: 3px;
+.works{
+    min-height: 265px;
 }
 
-.holder img {
+.holder>img {
     margin: 3 px;
     padding: 3 px;
 }
