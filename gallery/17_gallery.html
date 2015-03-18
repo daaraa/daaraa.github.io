@@ -1,0 +1,33 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <title>Галерея</title>
+  <link rel="stylesheet" type="text/css" href="17_gallery.css">
+  <script src="17_gallery.js"></script>
+  <meta charset="utf-8">
+</head>
+
+<body>
+
+<p><img id="largeImg" src="img/img2-lg.jpg" alt="Large image"></p>
+
+<div id="thumbs">
+  <img src="img/img2-thumb.jpg" alt="img/img2-lg.jpg">
+  <img src="img/img3-thumb.jpg" alt="img/img3-lg.jpg">
+  <img src="img/img4-thumb.jpg" alt="img/img4-lg.jpg">
+  <img src="img/img5-thumb.jpg" alt="img/img5-lg.jpg">
+  <img src="img/img6-thumb.jpg" alt="img/img6-lg.jpg">
+</div>
+
+<script>
+	document.getElementById('thumbs').onclick = function(event) {
+    event = event || window.event;
+    var target = event.target || event.srcElement;
+
+    if (target.tagName === 'IMG'){
+    	largeImg.src = target.alt;
+    };
+}
+</script>
+</body>
+</html>
