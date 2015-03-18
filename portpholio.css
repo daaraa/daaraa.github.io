@@ -126,7 +126,7 @@ img{
 .holder{
     display:  block; 
     height:  auto; 
-    width: auto;
+    float: left;
     background:  #E8FFED; 
     overflow: hidden;
     border-radius: 10px;
@@ -137,6 +137,6 @@ img{
     margin: 3px;
 }
 
-img > .holder{
+img .holder{
     margin: 3 px;
 }
