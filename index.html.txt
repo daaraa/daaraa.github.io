@@ -1,2 +1,0 @@
-<p>Good evening!</p>
-<a href="portfolio.html">My portfolio</a>
