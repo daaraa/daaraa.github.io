@@ -126,6 +126,7 @@ img{
 .holder{
     display:  block; 
     height:  auto; 
+    width: auto;
     background:  #E8FFED; 
     overflow: hidden;
     border-radius: 10px;
