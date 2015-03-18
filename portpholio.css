@@ -127,7 +127,7 @@ img{
     display:  block; 
     height:  auto; 
     float: left;
-    clear: both;
+    width: 260px;
     background:  #E8FFED; 
     overflow: hidden;
     border-radius: 10px;
