@@ -100,6 +100,11 @@ li {
 }
 .columns{
     min-height: 200px;
+    font-family: Helvetica Neue,Helvetica,Arial,sans-serif; 
+    text-align: justify;
+}
+.columns p{
+    color: #330000;
 }
 .aboutMe{
     display: inline;
@@ -116,17 +121,16 @@ li {
     font-family:  Impact, Charcoal, sans-serif;
     font-size: 22px;
     border-bottom: 2px ridge #318488;
-    /*display: inline;*/
+    text-align: center;
 }
-img{
+.aboutMe img{
     padding: 10px 10px 10px 0;
     float:left;
 }
 
 .holder{
-    display:  block; 
+    display:  inline-block; 
     height:  auto; 
-    float: left;
     background:  #E8FFED; 
     overflow: hidden;
     border-radius: 10px;
@@ -137,11 +141,38 @@ img{
     margin: 3px;
 }
 
-.works{
-    min-height: 300px;
+.taskDescription{
+    display:  inline-block;
+    /*width: 800px;*/
+    background:  #E8FFED; 
+    overflow: hidden;
+    border-radius: 10px;
+    border: ridge;
+    border-width: 1px; 
+    border-color: #318488;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    margin: 3px;
+    vertical-align: top;
+    font-family: Helvetica Neue,Helvetica,Arial,sans-serif; 
+    text-align: justify;
 }
 
-.holder>img {
-    margin: 3 px;
-    padding: 3 px;
+.clear{
+    clear: both;
+}
+
+.contacts{
+    font-family: Helvetica Neue,Helvetica,Arial,sans-serif; 
+    text-align: justify;
+}
+
+.contactsText {
+    display: inline-block;
+    vertical-align: top;
+    width: 49%;
+}
+
+.map{
+    display: inline-block;
+    width: 49%;
 }
